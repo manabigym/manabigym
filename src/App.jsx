@@ -21,7 +21,7 @@ const LINE = "#F0E2CC";
 
 const CATEGORIES = {
   memory: {
-    label: "記憶筋",
+    label: "記憶",
     short: "記憶",
     color: "#FF6B4A",
     soft: "#FFE7DE",
@@ -29,7 +29,7 @@ const CATEGORIES = {
     desc: "覚えて、思い出す力を鍛える",
   },
   thinking: {
-    label: "思考筋",
+    label: "思考",
     short: "思考",
     color: "#0EA89F",
     soft: "#DEF5F1",
@@ -37,7 +37,7 @@ const CATEGORIES = {
     desc: "考え方の引き出しを増やす",
   },
   organize: {
-    label: "整理筋",
+    label: "整理",
     short: "整理",
     color: "#F2A93B",
     soft: "#FFF1DC",
@@ -45,7 +45,7 @@ const CATEGORIES = {
     desc: "ノートと情報をまとめる力",
   },
   subject: {
-    label: "教科攻略筋",
+    label: "攻略",
     short: "教科",
     color: "#7C6BF0",
     soft: "#E8E4FB",
@@ -3105,7 +3105,7 @@ function TabBar({ activeTab, setActiveTab, completedCount }) {
               manabiGym
             </h1>
             <p className="text-sm" style={{ color: INK_SOFT }}>
-              勉強の悩みを、自学自習で解決するアプリ
+              勉強の悩みを自学自習で解決するwebアプリ
             </p>
           </div>
         </div>
